@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.serverless</groupId>
-  <artifactId>hello</artifactId>
+  <artifactId>aws-java-rest-project</artifactId>
   <packaging>jar</packaging>
   <version>dev</version>
-  <name>hello</name>
+  <name>aws-java-rest</name>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
