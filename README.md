@@ -3,10 +3,43 @@ Project to demonstrate how to create an endpoint using Amazon Lambda with Java
 
 ## Install Pre-requisites
 
-  * NPM
-  * Java JDK
-  * Maven
+* [Node and NPM](https://www.npmjs.com/get-npm)
+* [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* Set up your JAVA_HOME environment variable. Example: JAVA_HOME=C:\Program Files\Java\jdk1.8.0_144
+* [Maven](https://maven.apache.org/download.cgi)
+* Add the apache-maven-x.x.x/bin folder to the path environment variable.
+* [Serverless Framework](https://serverless.com/)
+* [Set up credential for AWS, and set it up to be used with Serverless Framework.](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
 
+## Testing Pre-requisites
+Teste Java installation:
+    **java -version**
+```
+    C:\Users\JoelSCampos>java -version
+    java version "1.8.0_211"
+    Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
+```
+  
+Test Mavan installation:
+    **mvn -v**
+```
+C:\Users\JoelSCampos>mvn -v
+    Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T16:00:29-03:00)
+    Maven home: C:\maven-3.6.1\bin\..
+    Java version: 1.8.0_144, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_144\jre
+    Default locale: pt_BR, platform encoding: Cp1252
+    OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+```
+
+Test Serverless Framework:
+**serverless -version**
+```
+    C:\Users\JoelSCampos>serverless -version
+    1.42.2
+```
+
+Both commands should display the versions of the Java and Maven, respectively.
 
 ## Create the AWS Serverless Project
 
